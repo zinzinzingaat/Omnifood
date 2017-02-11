@@ -55,4 +55,10 @@ Designing the text boxes on the main page.
 
 h1 {
     margin: 0;
+    color: #afacac;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
