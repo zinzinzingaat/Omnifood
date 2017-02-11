@@ -1,3 +1,7 @@
+/*
+the * and html should remain more or less constant always
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +15,31 @@ html {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+}
+
+
+/*
+max-width is the only css property to be abosolute
+margin 0 auto 0 auto aligns content to the center
+*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+
+/*
+Designing the header
+*/
+
+header {
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
 }
