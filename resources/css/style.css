@@ -34,10 +34,23 @@ Designing the header
 */
 
 header {
-    background-image: url(images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/hero.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+
+/*
+Designing the text boxes on the main page.
+*/
+
+.main-page-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 h1 {
