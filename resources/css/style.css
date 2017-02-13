@@ -79,6 +79,7 @@ h1 {
     border: 1px solid #e67e22;
     background-color: #e67e22;
     color: #fff;
+    margin-right: 15px;
 }
 
 .btn-ghost:link,
