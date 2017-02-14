@@ -41,9 +41,7 @@ header {
 }
 
 
-/*
-Designing the text boxes on the main page.
-*/
+/*-----Designing the text boxes on the main page.--------*/
 
 .main-page-text-box {
     position: absolute;
@@ -63,6 +61,9 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
 }
+
+
+/* -------Buttons------- */
 
 .btn:link,
 .btn:visited {
@@ -102,4 +103,41 @@ h1 {
 .btn-ghost:hover {
     color: #fff;
     border: 1px solid #e67e22;
+}
+
+
+/* Logo */
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* Navigation bar */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    text-decoration: none;
+    color: #e67e22;
+    transition: color 0.5s;
 }
