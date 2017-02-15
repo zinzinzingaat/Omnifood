@@ -110,6 +110,15 @@ h3 {
 }
 
 
+/*-------- Icons --------- */
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+}
+
+
 /* -------Buttons------- */
 
 .btn:link,
