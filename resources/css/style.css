@@ -201,6 +201,10 @@ h3 {
 
 /* Meal images */
 
+.section-meals {
+    padding: 0;
+}
+
 .image-list {
     width: 100%;
     list-style: none;
