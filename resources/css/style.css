@@ -205,20 +205,31 @@ h3 {
     padding: 0;
 }
 
-.image-list {
+.meals-showcase {
     width: 100%;
     list-style: none;
+}
+
+.meals-showcase li {
     display: block;
-    margin-top: 60px;
+    float: left;
+    width: 25%;
 }
 
 .figure-image {
     width: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
-.meal-image {
-    float: left;
-    width: 25%;
+.figure-image img {
+    width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+    opacity: 0.7;
+}
+
+.figure-image img:hover {
+    transform: scale(1.03);
 }
